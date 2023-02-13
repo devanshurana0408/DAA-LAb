@@ -2,7 +2,9 @@
 int main()
 {
     int array[6]={3,5,9,13,16,19},low=0,high=5,i=1;
-    int x=16;
+    int x;
+    printf("enter the key\n");
+    scanf("%d",&x);
     while (low <= high) 
     {
         int mid=low+(high-low)/2;
